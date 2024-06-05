@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock 🌍</title>
   </head>
   <body>
-    <h1>WORLD CLOCK</h1>
     <div class="container">
+      <h1>WORLD CLOCK</h1>
       <header>
         <select name="" id="">
           <option value="">Select a city</option>
@@ -18,24 +24,39 @@
         </select>
       </header>
       <main class="cities">
-        <div id="pretoria">
-          <h2>Pretoria 🇿🇦</h2>
-          <div class="current-date">15 April 2023</div>
-          <div class="current-time">15:33</div>
+        <div class="city">
+          <div>
+            <h2>Pretoria 🇿🇦</h2>
+            <div class="current-date">15 April 2023</div>
+          </div>
+          <div class="current-time">
+            15:33
+            <small>AM</small>
+          </div>
         </div>
-        <div class="cape-town">
-          <h2>Cape Town 🇿🇦</h2>
-          <div class="current-date">15 April 2023</div>
-          <div class="current-time">15:33</div>
+        <div class="city">
+          <div>
+            <h2>Cape Town 🇿🇦</h2>
+            <div class="current-date">15 April 2023</div>
+          </div>
+          <div class="current-time">
+            15:33
+            <small>AM</small>
+          </div>
         </div>
-        <div class="nelspruit">
-          <h2>Nelspruit 🇿🇦</h2>
-          <div class="current-date">15 April 2023</div>
-          <div class="current-time">15:33</div>
+        <div class="city">
+          <div>
+            <h2>Nelspruit 🇿🇦</h2>
+            <div class="current-date">15 April 2023</div>
+          </div>
+          <div class="current-time">
+            15:33
+            <small>AM</small>
+          </div>
         </div>
       </main>
     </div>
-    <script src="src/index.js"></script>
+
     <footer>
       👩‍💻Coded by
       <a href="https://github.com/KhweziOfentse" target="_blank"
@@ -51,5 +72,6 @@
       >
       💫
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
