@@ -34,10 +34,10 @@ select {
 }
 .city {
   display: flex;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   justify-content: space-between;
-  padding: 30px 0;
-  margin: 10px 0;
+  padding: 20px 5px;
+  border-radius: 10px;
+  margin: 10px auto;
 }
 
 .current-date {

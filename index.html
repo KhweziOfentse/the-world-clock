@@ -10,23 +10,25 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock 🌍</title>
   </head>
   <body>
     <div class="container">
       <h1>WORLD CLOCK</h1>
       <header>
-        <select name="" id="">
-          <option value="">Select a city</option>
-          <option value="">Bosnia</option>
-          <option value="">Dubai</option>
-          <option value="">Bangkok</option>
+        <select id="city">
+          <option value="current">Select a city</option>
+          <option value="US/Hawaii">Hawaii</option>
+          <option value="Asia/Dubai">Dubai 🇦🇪</option>
+          <option value="Asia/Bangkok">Bangkok 🇹🇭</option>
         </select>
       </header>
       <main class="cities">
-        <div class="city">
+        <div class="city" id="johannesburg">
           <div>
-            <h2>Pretoria 🇿🇦</h2>
+            <h2>Johannesburg 🇿🇦</h2>
             <div class="current-date">15 April 2023</div>
           </div>
           <div class="current-time">
@@ -34,9 +36,9 @@
             <small>AM</small>
           </div>
         </div>
-        <div class="city">
+        <div class="city" id="nairobi">
           <div>
-            <h2>Cape Town 🇿🇦</h2>
+            <h2>Nairobi 🇰🇪</h2>
             <div class="current-date">15 April 2023</div>
           </div>
           <div class="current-time">
@@ -44,9 +46,9 @@
             <small>AM</small>
           </div>
         </div>
-        <div class="city">
+        <div class="city" id="harare">
           <div>
-            <h2>Nelspruit 🇿🇦</h2>
+            <h2>Harare 🇿🇼</h2>
             <div class="current-date">15 April 2023</div>
           </div>
           <div class="current-time">
