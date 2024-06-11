@@ -39,7 +39,6 @@ function showCurrentTime(params) {
     );
   }
 }
-
 function updateCity(event) {
   let cityTimeZone = event.target.value;
   if (cityTimeZone === "current") {
