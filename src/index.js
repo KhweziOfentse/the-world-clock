@@ -60,6 +60,7 @@ function updateCity(event) {
   </div>
   `;
 }
+
 showCurrentTime();
 setInterval(showCurrentTime, 1000);
 

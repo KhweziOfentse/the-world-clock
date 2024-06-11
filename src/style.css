@@ -1,13 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f9f7fe;
+  background-color: #e3e3e3;
+  transition: all 200ms ease-in-out;
 }
-
 footer {
   text-align: center;
+  color: black;
 }
 footer a {
-  color: pink;
+  color: #142d4c;
 }
 h1 {
   font-size: 36px;
@@ -23,14 +24,16 @@ select {
   padding: 10px;
   font-weight: 500;
   font-style: normal;
+  background-color: black;
+  color: white;
 }
 .container {
-  background-color: white;
   max-width: 600px;
   margin: 0 auto;
   padding: 30px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #ececec;
 }
 .city {
   display: flex;
@@ -38,8 +41,12 @@ select {
   padding: 20px 5px;
   border-radius: 10px;
   margin: 10px auto;
+  background-color: #385170;
+  color: white;
 }
-
+.city:hover {
+  transform: scale(1.1);
+}
 .current-date {
   opacity: 0.8;
 }
